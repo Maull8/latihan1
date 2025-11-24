@@ -1,0 +1,63 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 96.5vh;
+}
+.kartu{
+    border: 1px solid #ccc8c8;
+    border-radius: 8px;
+    width: 360px;
+    flex-direction: column;
+    display: flex;
+}
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+}
+.kanan{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 6px;
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+}
+.title{
+    margin-top: 15px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: bold;
+    padding: 12px;
+}
+img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.profil{
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 8px;
+    padding: 3px;
+}
+.profi{
+    flex-direction: row;
+    display: flex;
+}
+p{
+    font-size: 15px;
+    color: #161515;
+    font-weight: bold;
+}
+.icon-text{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
